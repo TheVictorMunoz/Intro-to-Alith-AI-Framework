@@ -12,7 +12,8 @@ def main():
     user_message = "Entertain me with a short joke!"
     response = agent.prompt(user_message)
 
-    print("AI Agent Response:", response)
+    print("Agent Response:", response)
 
 if __name__ == "__main__":
     main()
+
